@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Card {
+            height: 500px;
+            width: 320px;
+            border: 10px solid rgb(255, 255, 255);
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+        }
+
+        .Card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .Card_Title {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 12px 0 10px;
+            color: #333;
+        }
+
+        .Card_Description {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .Card_Content {
+            padding: 16px;
+        }
+
+        .tags {
+            font-size: 13px;
+            color: #000000;
+            margin-bottom: 8px;
+            
+        }
+
+        .Card_Button {
+            display: block;
+            width: fit-content;
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+            margin: 0 auto;
+        }
+
+        .Card_Button:hover {
+            background-color: #0056b3;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="Card">
+        <img src="https://i.pinimg.com/736x/84/f5/ff/84f5ffca2f71b0a7fd0934b32ac9df31.jpg" alt="IMAGE OF THE GOAT">
+
+        <div class="Card_Content">
+            <div class="tags">
+                John Cena
+            </div>
+
+            <h1 class="Card_Title">Lago Di Braies</h1>
+            <p class="Card_Description">
+                Greatest of all time. The never seen seventeen.
+                The Undisputed Champion JOHN CENA.
+                Never backs down from a challenge.
+                His legacy lives on forever.
+
+            </p>
+            <a href="#" class="Card_Button">Read More</a>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
